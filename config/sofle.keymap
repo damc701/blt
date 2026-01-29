@@ -48,7 +48,7 @@
             bindings = <
 &kp F1     &kp F2          &kp F3          &kp F4          &kp F5           &kp F6                    &kp F7  &kp F8  &kp F9  &kp F10           &kp F11            &kp F12
 &kp MINUS  &kp UNDERSCORE  &trans          &kp UP_ARROW    &trans           &trans                    &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&kp EQUAL  &trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                    &trans  &trans  &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
+&kp EQUAL  &trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                    &trans  &trans  &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp TILDE2
 &trans     &trans          &trans          &kp C_PREV      &kp C_NEXT       &trans  &trans    &trans  &trans  &trans  &trans  &trans            &kp PIPE           &kp QUESTION
                            &trans          &trans          &trans           &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
