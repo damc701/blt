@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: sofle}
 layers:
   main: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', ↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', CAPSLOCK, A, S, D, F, G, H,
-    J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, PLAY PAUSE, MUTE, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$',
-    '$$mdi:apple-keyboard-option$$', f#, LEFT CONTROL, ␣, ENTER, RIGHT CONTROL, bt, '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-command$$']
+    J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, PLAY PAUSE, MUTE, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', f#, '$$mdi:apple-keyboard-option$$',
+    LEFT GUI, LEFT CONTROL, ␣, ENTER, RIGHT CONTROL, RIGHT GUI, '$$mdi:apple-keyboard-option$$', bt]
   f#:
   - F1
   - F2
@@ -54,9 +54,9 @@ layers:
   - {t: ▽, type: trans}
   - '|'
   - '?'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,6 +122,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: KP 0, type: held}
+  - KP 0
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
